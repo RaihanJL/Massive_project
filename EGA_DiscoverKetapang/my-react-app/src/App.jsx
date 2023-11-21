@@ -20,6 +20,8 @@ import detailWisataA1 from "./pages/detailwisataA1";
 import detailWisataA2 from "./pages/detailwisataA2";
 import detailWisataA3 from "./pages/detailwisataA3";
 import detailWisataS2 from "./pages/detailwisataS2";
+import Paymentpages from "./pages/Paymentpages";
+import Donepayment from "./pages/Donepaymentpages";
 function App() {
   return (
     <>
@@ -46,6 +48,8 @@ function App() {
         <Route path="/detailwisataA2" Component={detailWisataA2} />
         <Route path="/detailwisataA3" Component={detailWisataA3} />
         <Route path="/detailwisataS2" Component={detailWisataS2} />
+        <Route path="/payment" Component={Paymentpages} />
+        <Route path="/done" Component={Donepayment} />
       </Routes>
       {/* <Footercomponent /> */}
     </>

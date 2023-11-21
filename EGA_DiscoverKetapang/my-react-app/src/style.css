@@ -1344,3 +1344,25 @@ div > .img-kuliner p {
   color: white;
   padding-top: 225px;
 }
+/* Payment */
+.white-box hr {
+  border: 1px solid gray;
+  width: 100%;
+}
+
+/* Wisata Alam */
+.A-header {
+  margin-top: 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.A-header h1 {
+  font-size: 48px;
+}
+.A-header hr {
+  width: 300px;
+  border: 1px solid white;
+}
