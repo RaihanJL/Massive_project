@@ -1,2 +1,2 @@
-# IL_Macro
+# Infinite_Learning_Massive
 # Massive_project
