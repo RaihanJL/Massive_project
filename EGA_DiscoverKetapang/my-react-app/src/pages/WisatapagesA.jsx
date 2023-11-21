@@ -83,7 +83,7 @@ const WisatapagesA = () => {
 
           <div className="d-flex justify-content-end align-items-center ">
             <div className="custom-img" style={{ position: "relative" }}>
-              <a href="#Penjelasan3" style={{ position: "relative" }}>
+              <a href="#Penjelasan1" style={{ position: "relative" }}>
                 <img className="me-2 img-fluid" src={Square1} alt="Square 1" />
                 {/* <p
                   style={{
@@ -102,7 +102,7 @@ const WisatapagesA = () => {
                   Pantai Katembe
                 </p> */}
               </a>
-              <a href="#Penjelasan1" style={{ position: "relative" }}>
+              <a href="#Penjelasan2" style={{ position: "relative" }}>
                 <img className="me-2 img-fluid " src={Square2} alt="Square 2" />
                 {/* <p
                   style={{
@@ -121,7 +121,7 @@ const WisatapagesA = () => {
                   Pantai Mutiara
                 </p> */}
               </a>
-              <a href="#Penjelasan2" style={{ position: "relative" }}>
+              <a href="#Penjelasan3" style={{ position: "relative" }}>
                 <img className="me-2 img-fluid" src={Square3} alt="Square 3" />
                 {/* <p
                   style={{
@@ -193,7 +193,7 @@ const WisatapagesA = () => {
             className="d-flex align-items-center justify-content-around"
           >
             <div className="text-light text-end">
-            <img className="img-fluid" src={num1} alt="Number 1" />
+              <img className="img-fluid" src={num1} alt="Number 1" />
 
               <div className="d-flex align-items-end justify-content-between">
                 <h2 style={{ textAlign: "right" }}>Bukit Batu Daya</h2>
@@ -205,7 +205,7 @@ const WisatapagesA = () => {
                 wisatawan. Dengan pemandangan yang menakjubkan, destinasi ini
                 menjadi tujuan favorit bagi para pengunjung.
               </p>
-              <Link to="/detailwisata1">
+              <Link to="/detailwisataA1">
                 <button className="rounded-2 btn-more">Selengkapnya</button>
               </Link>
             </div>
@@ -250,7 +250,7 @@ const WisatapagesA = () => {
             className="d-flex align-items-center justify-content-around flex-row-reverse"
           >
             <div className="text-light text-end">
-            <img className="img-fluid" src={num2} alt="Number 2" />
+              <img className="img-fluid" src={num2} alt="Number 2" />
               <div className="d-flex align-items-end justify-content-between">
                 <h2 style={{ textAlign: "right" }}>Pulai Pelapis</h2>
               </div>
@@ -263,7 +263,7 @@ const WisatapagesA = () => {
                 terkenal akan hasil laut nya yaitu ikan teri, cumi-cumi dan lain
                 nya.
               </p>
-              <Link to="/detailwisata2">
+              <Link to="/detailwisataA2">
                 <button className="rounded-2 btn-more">Selengkapnya</button>
               </Link>
             </div>
@@ -278,9 +278,9 @@ const WisatapagesA = () => {
             className="d-flex align-items-center justify-content-around"
           >
             <div className="text-light text-end">
-            <img className="img-fluid" src={num3} alt="Number 3" />
+              <img className="img-fluid" src={num3} alt="Number 3" />
               <div className="d-flex align-items-end justify-content-between">
-                <h2 style={{ textAlign: "right" }}>Pantai Tanjung Belanda</h2>
+                <h2 style={{ textAlign: "right" }}>Pantai Tanjung Belandang</h2>
               </div>
               <hr style={{ borderWidth: "3px" }} />
               <p style={{ textAlign: "justify", width: "590px" }}>
@@ -291,7 +291,7 @@ const WisatapagesA = () => {
                 Pantai ini selalu ramai dikunjungi oleh wisatawan terutama pada
                 hari libur.
               </p>
-              <Link to="/detailwisata3">
+              <Link to="/detailwisataA3">
                 <button className="rounded-2 btn-more">Selengkapnya</button>
               </Link>
             </div>

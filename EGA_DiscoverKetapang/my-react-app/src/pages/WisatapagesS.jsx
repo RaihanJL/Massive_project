@@ -8,7 +8,6 @@ import React from "react";
 import Footercomponent from "../Component/Fragments/Footercomponent";
 import { Link } from "react-router-dom";
 
-
 const WisatapagesS = () => {
   return (
     <>
@@ -19,14 +18,14 @@ const WisatapagesS = () => {
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center center",
-          height: "85vh",
+          height: "100vh",
           fontFamily: "Times New Roman",
         }}
       >
         <Navbarwisata />
         <div
           id="header-wrapper"
-          style={{ paddingTop: "180px", marginRight: "60px" }}
+          style={{ paddingTop: "300px", marginRight: "60px" }}
           className="d-flex justify-content-end align-items-center"
         >
           <div id="header" className="w-766 text-light text-center">
@@ -112,7 +111,6 @@ const WisatapagesS = () => {
               mempromosikan pengertian dan perdamaian di antara berbagai budaya
               dan komunitas di seluruh dunia.
             </p>
-           
           </div>
           <div className="position-relative top-0 start-0 mb-5">
             <img

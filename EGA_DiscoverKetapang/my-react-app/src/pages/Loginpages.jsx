@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Loginpages = () => {
   return (
     <>
-      <div className="login h-vh-100">
+      <div className="login">
         <div
           className="bg-image"
           style={{
@@ -25,8 +25,8 @@ const Loginpages = () => {
                   <span style={{ color: "white" }}>Ketapang</span>
                 </h2>
                 <p className="small ">
-                  Eksplorasi 
-                  Keindahan Alam dan <br /> Kekayaan Budaya di Ketapang
+                  Eksplorasi Keindahan Alam dan <br /> Kekayaan Budaya di
+                  Ketapang
                 </p>
               </div>
               <form className="login-form">

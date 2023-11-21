@@ -510,7 +510,6 @@ body {
   border-radius: 15px;
   width: 250px;
   height: 340px;
-
 }
 .img2 img {
   width: 80px;
@@ -995,15 +994,12 @@ body {
   font-weight: bold;
 }
 
-
-
 @media (max-width: 768px) {
   .banner-text {
     font-size: 24px;
     text-align: center;
-    margin-left: auto
+    margin-left: auto;
   }
- 
 }
 
 @media (max-width: 576px) {
@@ -1036,7 +1032,7 @@ body {
   font-weight: bold;
   color: white;
 }
-.img-fluids{
+.img-fluids {
   max-width: 100%;
   height: auto;
   margin: 0;
@@ -1064,16 +1060,14 @@ body {
     height: 260px;
   }
 
-  .textcenterP{
+  .textcenterP {
     margin-top: 8rem;
   }
-
 }
 .cardtestimoni:hover {
   transform: none;
   transition: none;
 }
-
 
 .feedback-card {
   background: rgba(217, 217, 217, 1);
@@ -1246,6 +1240,9 @@ body {
     margin: 0;
     margin-bottom: 1.5rem;
   }
+  .image1 {
+    width: 150px;
+  }
 }
 @keyframes slideIn {
   0% {
@@ -1280,4 +1277,70 @@ div > .img-kuliner p {
   margin-left: -1px;
 }
 
+/*jumbotron*/
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
 
+/* detail-wisata */
+.detail-box {
+  border: 2px solid white;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 10px;
+  position: relative;
+}
+.back-button {
+  position: absolute;
+  top: 35px;
+  left: 80px;
+}
+.detail-header {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.detail-header hr {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  width: 250px;
+  border: solid 2px white;
+  margin-bottom: 35px;
+}
+.image1 {
+  margin-bottom: 20px;
+}
+.detail-text {
+  text-align: justify;
+  margin-left: 80px;
+  margin-right: 80px;
+  color: white;
+  font-size: 21px;
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
+.detail-table {
+  margin-left: 80px;
+}
+.more-pic {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.more-pic p {
+  text-align: center;
+  color: white;
+  padding-top: 225px;
+}
