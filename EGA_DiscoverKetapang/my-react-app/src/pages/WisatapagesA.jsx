@@ -145,7 +145,7 @@ const WisatapagesA = () => {
               <div className="custom-img" style={{ position: "relative" }}>
                 <a href="#Penjelasan1" style={{ position: "relative" }}>
                   <img
-                    className="me-2 img-fluid"
+                    className="me-2 img-fluid rounded-2"
                     src={Square1}
                     alt="Square 1"
                   />
@@ -168,7 +168,7 @@ const WisatapagesA = () => {
                 </a>
                 <a href="#Penjelasan2" style={{ position: "relative" }}>
                   <img
-                    className="me-2 img-fluid "
+                    className="ms-2 me-2 img-fluid rounded-2"
                     src={Square2}
                     alt="Square 2"
                   />
@@ -191,7 +191,7 @@ const WisatapagesA = () => {
                 </a>
                 <a href="#Penjelasan3" style={{ position: "relative" }}>
                   <img
-                    className="me-2 img-fluid"
+                    className=" ms-2 img-fluid rounded-2"
                     src={Square3}
                     alt="Square 3"
                   />

@@ -5,11 +5,29 @@ import Footercomponent from "../Component/Fragments/Footercomponent";
 import Navbarwisata from "../Component/Fragments/Navbarwisata";
 
 const Paymentpages = () => {
+  const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+  const today = new Date();
+  const d = new Date();
+  let month = months[d.getMonth()];
+  const year = today.getFullYear();
+  const date = today.getDate();
   const data = {
     bookingName: "Chesa",
     bookingEmail: "chesaolivia99@gmail.com",
     bookingNoTelepon: "085932441121",
-    bookingDate: "15 November 2023",
     bookingPemandu: "Nurhayati",
   };
   return (
@@ -25,7 +43,7 @@ const Paymentpages = () => {
       >
         <Navbarwisata />
         <div className="detail-box mt-5 mb-5">
-          <Link to="/wisataA">
+          <Link to="/form">
             <svg
               className="back-button"
               xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +89,7 @@ const Paymentpages = () => {
                   </p>
                   <p>
                     Booking Date <span style={{ marginLeft: "50px" }}>:</span>{" "}
-                    {data.bookingDate}
+                    {date} {month} {year}
                   </p>
                 </div>
               </div>

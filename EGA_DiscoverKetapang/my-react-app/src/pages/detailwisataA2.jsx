@@ -179,7 +179,7 @@ const detailWisataA2 = () => {
                   Kunjungi Destinasi Wisata yang lain
                 </h2>
                 <div className="more-pic">
-                  <Link to="">
+                  <Link style={{ textDecoration: "none" }} to="">
                     <div
                       style={{
                         backgroundImage: `url(${more1})`,
@@ -191,7 +191,7 @@ const detailWisataA2 = () => {
                       <p>Pantai Tanjung Belandang</p>
                     </div>
                   </Link>
-                  <Link to="">
+                  <Link style={{ textDecoration: "none" }} to="">
                     <div
                       style={{
                         backgroundImage: `url(${more2})`,
@@ -203,7 +203,7 @@ const detailWisataA2 = () => {
                       <p>Bukit Batu Daya</p>
                     </div>
                   </Link>
-                  <Link to="">
+                  <Link style={{ textDecoration: "none" }} to="">
                     <div
                       style={{
                         backgroundImage: `url(${more3})`,

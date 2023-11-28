@@ -10,21 +10,7 @@ function CarouselWS() {
   return (
     <div className="d-flex justify-content-center align-items-center vh-60">
       <div style={{ width: "70%" }}>
-       
-        <Carousel fade>
-          <Carousel.Item>
-            <img src={image1} alt="First slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src={image2} alt="Second slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src={image3} alt="Third slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src={image4} alt="Fourth slide" />
-          </Carousel.Item>
-        </Carousel>
+        <img style={{ width: "70%" }} src={image1} alt="First slide" />
       </div>
     </div>
   );

@@ -1,13 +1,14 @@
 import Navbarwisata from "../Component/Fragments/Navbarwisata";
 import Homecard from "../Component/Fragments/Homecard";
-import { Container, Row, Col } from "react-bootstrap";
-import Bgimage from "../assets/img/wisata/wisataA/bghome.png";
+import { Container, Row, Col, Carousel } from "react-bootstrap";
+import Bgimage from "../assets/img/homebg.png";
 import React, { useState, useEffect } from "react";
 import Strengthcard from "../Component/Fragments/Strengthcard";
 import Cardtop3 from "../Component/Fragments/Cardtop3";
 import AboutCard from "../Component/Fragments/AboutCard";
 import Footercomponent from "../Component/Fragments/Footercomponent";
 
+import { Link } from "react-router-dom";
 const Homepages = () => {
   const [isVisible6, setIsVisible6] = useState(false);
   const [isVisible7, setIsVisible7] = useState(false);
@@ -58,25 +59,14 @@ const Homepages = () => {
           >
             <Navbarwisata />
             <Container className="hero d-flex justify-content-center align-items-center h-100 ">
-              <Row className="my-auto  h-50 ">
-                <Col className="text-white " md={6}>
-                  <h1 className="fw-bold fs-1 mb-1">Ketapang</h1>
-                  <p className="text-justify-start d-none mt-3 fs-6 d-sm-block">
-                    Disinilah Petualangan sejati dimulai. Selamat datang di
-                    portal ekslusif kami yang menggabungkan kekayaan budaya,
-                    keindahan alam dan kenangan sejarah yang tak terlupakan
-                    dalam satu perjalanan epik. Dengan kami, Anda akan
-                    menjelajah tiga dimensi yang memukau diantaranya kekayaan
-                    budaya yang ajaib, keindahan alam yang menakjubkan, kenangan
-                    sejarah yang abadi.
-                  </p>
-                </Col>
-                <Col>
-                  <div className="row  row-cols-3 row-cols-md-3 g-3">
-                    <Homecard></Homecard>
-                  </div>
-                </Col>
-              </Row>
+              <div className="d-flex flex-column">
+                <h1
+                  style={{ fontSize: "55px" }}
+                  className="text-light fw-bold text-center"
+                >
+                  Selamat datang di <br></br> Ketapang
+                </h1>
+              </div>
             </Container>
           </div>
 
@@ -123,17 +113,30 @@ const Homepages = () => {
               style={{ paddingTop: "50px", lineHeight: "4px" }}
               className=" toppemandu min-vh-100 text-center "
             >
-              <h1 className=" text-white  fw-bold fs-4 mb-4">
-              Paket Liburan di Ketapang
+              <h1
+                style={{ fontSize: "48px" }}
+                className=" text-white  fw-bold  mb-5"
+              >
+                Paket Wisata
               </h1>
               <div
-                className={`animate-in-7 ${
-                  isVisible7 ? "show" : ""
-                } d-flex flex-row d-grid gap-3 justify-content-center`}
+                className={`animate-in-7 ${isVisible7 ? "show" : ""} `}
                 onClick={resetScroll}
               >
                 <Cardtop3></Cardtop3>
               </div>
+
+              <h4
+                style={{ marginRight: "270px", marginTop: "4rem" }}
+                className="more-button text-light text-end "
+              >
+                <Link
+                  style={{ textDecoration: "none", color: "white" }}
+                  to="/paketwisata1"
+                >
+                  Selengkapnya >
+                </Link>
+              </h4>
             </div>
           </div>
 

@@ -1,7 +1,7 @@
 import Footercomponent from "../Component/Fragments/Footercomponent";
 import Navbarwisata from "../Component/Fragments/Navbarwisata";
 import Bgimage from "../assets/img/pemandu/BgAkun.png";
-import image1 from "../assets/img/pemandu/aldi.jpeg";
+import image1 from "../assets/img/pemandu/chesa.png";
 import { Link } from "react-router-dom";
 
 const Akunsayapages = () => {
@@ -27,10 +27,10 @@ const Akunsayapages = () => {
               fontSize: "64px",
               fontWeight: "700",
               lineHeight: "30px",
-              textAlign: "right",
-              paddingTop: "400px",
-              marginRight: "80px",
-              fontFamily: "serif",
+              textAlign: "center",
+              paddingTop: "370px",
+
+              fontFamily: "poppins",
             }}
           >
             Halaman Profil
@@ -54,7 +54,7 @@ const Akunsayapages = () => {
                       paddingBottom: "7px",
                     }}
                   />
-                  <p className="text-white display-6 fw-bold mt-3">Aldi</p>
+                  <p className="text-white display-6 fw-bold mt-3">Chesa</p>
                 </div>
               </div>
               <div className="col-md-7 text-center text-white  ml-auto  ">
@@ -66,7 +66,7 @@ const Akunsayapages = () => {
                       type="email"
                       id="email"
                       name="email"
-                      placeholder="ALDI"
+                      placeholder="Chesa"
                       required
                     />
                   </div>
@@ -76,7 +76,7 @@ const Akunsayapages = () => {
                       type="email"
                       id="email"
                       name="email"
-                      placeholder="aldi2023@gmail.com"
+                      placeholder="chesaolivia99@gmail.com"
                       required
                     />
                   </div>

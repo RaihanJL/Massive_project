@@ -22,6 +22,10 @@ import detailWisataA3 from "./pages/detailwisataA3";
 import detailWisataS2 from "./pages/detailwisataS2";
 import Paymentpages from "./pages/Paymentpages";
 import Donepayment from "./pages/Donepaymentpages";
+import Formpembayaran from "./pages/Formpembayaran";
+import Paketwisata1 from "./pages/Paketwisata1";
+import Paketwisata2 from "./pages/Paketwisata2";
+import Paketwisata3 from "./pages/Paketwisata3";
 function App() {
   return (
     <>
@@ -50,6 +54,10 @@ function App() {
         <Route path="/detailwisataS2" Component={detailWisataS2} />
         <Route path="/payment" Component={Paymentpages} />
         <Route path="/done" Component={Donepayment} />
+        <Route path="/form" Component={Formpembayaran} />
+        <Route path="/paketwisata1" Component={Paketwisata1} />
+        <Route path="/paketwisata2" Component={Paketwisata2} />
+        <Route path="/paketwisata3" Component={Paketwisata3} />
       </Routes>
       {/* <Footercomponent /> */}
     </>

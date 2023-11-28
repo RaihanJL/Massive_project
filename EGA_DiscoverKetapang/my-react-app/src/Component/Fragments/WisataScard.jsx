@@ -2,7 +2,6 @@ import Card from "react-bootstrap/Card";
 import CarouselWS2 from "./CarouselWisataS2";
 import { Link } from "react-router-dom";
 
-
 const CenteredCard = () => {
   return (
     <div
@@ -34,9 +33,13 @@ const CenteredCard = () => {
               ke-14 m dan pada abad ke 15 M berubah nama menjadi Kerajaan Matan,
               sejak Rajanya Sorgi (Giri Kesuma) memeluk Islam.
             </Card.Text>
-            <Link to="/detailwisataS1" className="d-flex justify-content-center">
-                <button className="rounded-2 btn-more">Selengkapnya</button>
-              </Link>
+            <Link
+              style={{ textDecoration: "none" }}
+              to="/detailwisataS1"
+              className="d-flex justify-content-center"
+            >
+              <button className="rounded-2 btn-more">Selengkapnya</button>
+            </Link>
           </div>
           <CarouselWS2 />
         </div>

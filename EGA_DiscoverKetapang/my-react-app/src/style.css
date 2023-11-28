@@ -187,7 +187,7 @@ input[type="password"] {
 }
 
 button {
-  background-color: #184662;
+  background-color: #2c8bc4;
   color: #fff;
   padding: 6px 20px;
   border: none;
@@ -270,11 +270,11 @@ img:last-child {
   opacity: 0.5;
 }
 .flex-card-box1 {
-  justify-content: start;
+  justify-content: space-evenly;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 3.5rem;
+  margin-bottom: 20px;
 }
 .text-box1 {
   border: 1px solid white;
@@ -360,9 +360,13 @@ img:last-child {
   font-size: 16px;
   letter-spacing: 0;
   margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .image-container {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
 }
 .image-container img {
@@ -371,9 +375,7 @@ img:last-child {
 img:last-child {
   padding-right: none;
 }
-.card-box {
-  padding-bottom: 60px;
-}
+
 .text-space {
   line-height: 4px;
 }
@@ -461,36 +463,6 @@ img:last-child {
 }
 
 /* Style bagian cardtop halaman home */
-.kartu {
-  margin-top: 25px;
-  width: 237px;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 3px 4px 8px rgba(149, 147, 147, 0.1);
-  transition: transform 0.2s;
-  background-color: #003949;
-}
-.kartu:hover {
-  transform: translateY(-5px);
-}
-.kartu img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-.kartu-container {
-  position: relative;
-}
-.kartu-body {
-  position: absolute;
-  bottom: 50px;
-  left: 0;
-  right: 0;
-  padding: 10px;
-  background-color: rgba(200, 199, 199, 0.491);
-  text-align: center;
-  color: #fff;
-}
 
 /*Style bagian Strength(mengapa memilih kami) halaman home*/
 .Strength {
@@ -830,7 +802,7 @@ body {
   width: 90px;
 }
 .btn-registrasi {
-  background: #417496;
+  background: #2c8bc4;
 }
 .btn-registrasi:hover {
   background: var(--primary-color);
@@ -1105,7 +1077,7 @@ body {
 }
 
 .feedback-card button {
-  background: rgba(16, 84, 124, 1);
+  background: #2c8bc4;
   color: white;
   border: none;
   border-radius: 5px;
@@ -1365,4 +1337,78 @@ div > .img-kuliner p {
 .A-header hr {
   width: 300px;
   border: 1px solid white;
+}
+/* Paket wisata */
+.kartu-body {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  text-align: left;
+  color: #fff;
+  font-size: 1.33rem;
+}
+
+.more-button:hover {
+  opacity: 0.5;
+}
+
+/* card-box2 */
+.card-box2 {
+  width: 589px;
+  height: 433px;
+  background: linear-gradient(
+    rgb(9, 64, 96),
+    rgb(36, 83, 112),
+    rgb(49, 112, 150)
+  );
+  margin-top: 15rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 20px;
+}
+/* text-box2 */
+.text-box2 {
+  border: 1px solid white;
+  text-align: justify;
+  width: 550px;
+  font-size: 16px;
+  letter-spacing: 0;
+  padding: 60px 40px 60px 40px;
+  border-radius: 20px;
+  margin-left: 32rem;
+}
+.image-containers {
+  background-image: url("/images/daun.png");
+  background-repeat: no-repeat;
+
+  background-position: center;
+}
+.image-containers2 {
+  background-image: url("/images/sejarah.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.image-containers3 {
+  background-image: url("/images/budaya.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* Form */
+.Formpembayaran {
+  margin-top: 50px;
+}
+.Formpembayaran div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Formpembayaran input {
+  width: 600px;
+  background-color: white;
+}
+.Formpembayaran label {
+  margin-right: 100px;
+}
+.Formpembayaran select {
+  width: 600px;
 }

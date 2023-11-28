@@ -17,11 +17,14 @@ const Welcomepages = () => {
       >
         <Navbarcomponent />
         <div className="container ">
-          <h4 className=" display-7 mt-5 text-center text-info fw-bold">
+          <h1
+            style={{ marginTop: "120px" }}
+            className=" display-7  text-center text-info fw-bold"
+          >
             NIKMATI KEINDAHAN
-            <h4 className="display-6  fw-bold text-white">KETAPANG</h4>
-            <h4 className="fw-bold ">BERSAMA KAMI</h4>
-          </h4>
+            <h1 className="display-6  fw-bold text-white">KETAPANG</h1>
+            <h1 className="fw-bold ">BERSAMA KAMI</h1>
+          </h1>
 
           <div className=" populer  text-white">
             <h6>Destinasi populer</h6>
@@ -29,7 +32,7 @@ const Welcomepages = () => {
           </div>
 
           <div
-            className="row  d-flex align-items-center justify-content-center"
+            className="row  d-flex align-items-center justify-content-center "
             // style={{ height: "100vh", width: "max-w-80px" }}
           >
             <div className="col-lg-9  ">

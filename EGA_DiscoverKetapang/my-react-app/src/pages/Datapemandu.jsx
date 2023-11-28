@@ -82,19 +82,19 @@ const Datapemandu = () => {
             </h3>
           </div>
         </div>
-        <div className="container d-flex justify-content-center align-items-center w-100  mt-5">
+        <div className="container d-flex justify-content-between align-items-center w-100  mt-5">
           <div
             className={`animate-in-1 ${
               isVisible1 ? "show" : ""
             } row mt-5 mx-auto px-5`}
             onClick={resetScroll}
           >
-            <div className="col-8">
+            <div className="col-8 ">
               <div>
                 <h4 className="fw-bold">Nurhayati</h4>
                 <h6>Salah satu pemandu wisata terbaik</h6>
                 <hr className="w-50" />
-                <p className=" ">
+                <p className="w-100 ">
                   Nurhayati ialah seorang pemandu wisata profesional dengan
                   pengalaman selama 4 tahun. Memberi informasi dan membimbing
                   pengunjung . Bakat unggul untuk menghibur penonton dan
@@ -107,7 +107,7 @@ const Datapemandu = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-4 px-5">
+            <div style={{ paddingLeft: "150px" }} className="col-4">
               <div className="img-pemandu  ">
                 <img className="rounded-2" src={P1} alt="dina nf" />
               </div>
@@ -133,7 +133,7 @@ const Datapemandu = () => {
                 <h4 className="fw-bold ">Rendiansyah</h4>
                 <h6>Salah satu pemandu wisata terbaik</h6>
                 <hr className="w-50 " />
-                <p className=" ">
+                <p className="w-100 ">
                   Kecemerlangan Rendiansyah sebagai operator tur tercermin dalam
                   sikapnya yang ramah, positif, dan peduli terhadap pengalaman
                   pengunjung, juga mahir bahasa Inggris dan Madarin. Dia mampu
@@ -150,7 +150,6 @@ const Datapemandu = () => {
             </div>
           </div>
         </div>
-
         <div className="container d-flex justify-content-center align-items-center w-100  mt-5">
           <hr className="mx-5" />
           <div

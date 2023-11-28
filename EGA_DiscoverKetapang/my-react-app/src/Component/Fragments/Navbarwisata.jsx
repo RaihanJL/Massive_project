@@ -111,7 +111,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
-import Imguser from "/images/aldiuser.png";
+import Imguser from "../../assets/img/pemandu/chesa.png";
 
 const Navbarwisata = () => {
   const [navBackground, setNavBackground] = useState(false);
@@ -144,12 +144,12 @@ const Navbarwisata = () => {
       fixed="top"
     >
       <Container>
-      <div className="container-fluid">
-            <a className="navbar-brand text-white fw-bold" href="#">
-              <span style={{ color: '#5BBCFC' }}>Discover</span> <br />
-              <span style={{ color: 'white' }}>Ketapang</span>
-            </a>
-          </div>
+        <div className="container-fluid">
+          <a className="navbar-brand text-white fw-bold" href="#">
+            <span style={{ color: "#5BBCFC" }}>Discover</span> <br />
+            <span style={{ color: "white" }}>Ketapang</span>
+          </a>
+        </div>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Item>
@@ -213,11 +213,11 @@ const Navbarwisata = () => {
             </Nav.Item>
             <img
               src={Imguser}
-              alt="Aldi"
+              alt="Chesa"
               className="mt-2"
               style={{ height: "24px", width: "23px" }}
             />
-            <NavDropdown id="user-dropdown" title="Aldi" menuVariant="white">
+            <NavDropdown id="user-dropdown" title="Chesa" menuVariant="white">
               <NavDropdown.Item as={Link} to="/akunsaya">
                 Akun saya
               </NavDropdown.Item>
