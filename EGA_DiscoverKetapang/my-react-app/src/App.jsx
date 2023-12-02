@@ -26,6 +26,7 @@ import Formpembayaran from "./pages/Formpembayaran";
 import Paketwisata1 from "./pages/Paketwisata1";
 import Paketwisata2 from "./pages/Paketwisata2";
 import Paketwisata3 from "./pages/Paketwisata3";
+
 function App() {
   return (
     <>

@@ -159,7 +159,7 @@ const Datapemandu = () => {
             onClick={resetScroll}
           >
             <div className="col-8">
-              <div className=" ">
+              <div>
                 <h4 className="fw-bold">Oktavia Putri</h4>
                 <h6>Salah satu pemandu wisata terbaik</h6>
                 <hr className="w-50" />
@@ -178,7 +178,7 @@ const Datapemandu = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-4 px-5">
+            <div className="col-4">
               <div className="img-pemandu  ">
                 <img className="rounded-2" src={P3} alt="mila" />
               </div>

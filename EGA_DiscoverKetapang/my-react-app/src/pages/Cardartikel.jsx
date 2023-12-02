@@ -2,12 +2,9 @@ import { useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
 import Navbarwisata from "../Component/Fragments/Navbarwisata";
 import foto2 from "/images/daerah.png";
-import foto1 from "/images/daun.png";
-import foto3 from "/images/sejarah.png";
-import foto4 from "/images/budaya.png";
+import { Link } from "react-router-dom";
 import Footercomponent from "../Component/Fragments/Footercomponent";
 import Cardartikel from "../Component/Fragments/cardwisataartikel";
-import Cardswiper from "./Cardswiper";
 
 const Artikelpages = () => {
   const [showContent, setShowContent] = useState(false);
@@ -86,17 +83,20 @@ const Artikelpages = () => {
                 borderRadius: "15px",
               }}
             >
-              <h1
-                style={{
-                  textAlign: "center",
-                  paddingTop: "100px",
-                  color: "white",
-                  fontSize: "64px",
-                }}
-              >
-                Wisata Alam
-              </h1>
+              <Link style={{ textDecoration: "none" }} to="/wisataA">
+                <h1
+                  style={{
+                    textAlign: "center",
+                    paddingTop: "100px",
+                    color: "white",
+                    fontSize: "64px",
+                  }}
+                >
+                  Wisata Alam
+                </h1>
+              </Link>
             </div>
+
             <div
               className="image-containers2 mt-5 "
               style={{
@@ -105,16 +105,18 @@ const Artikelpages = () => {
                 borderRadius: "15px",
               }}
             >
-              <h1
-                style={{
-                  textAlign: "center",
-                  paddingTop: "100px",
-                  color: "white",
-                  fontSize: "64px",
-                }}
-              >
-                Wisata Sejarah
-              </h1>
+              <Link style={{ textDecoration: "none" }} to="/wisataS">
+                <h1
+                  style={{
+                    textAlign: "center",
+                    paddingTop: "100px",
+                    color: "white",
+                    fontSize: "64px",
+                  }}
+                >
+                  Wisata Sejarah
+                </h1>
+              </Link>
             </div>
             <div
               className="image-containers3 mt-5 mb-5"
@@ -124,16 +126,18 @@ const Artikelpages = () => {
                 borderRadius: "15px",
               }}
             >
-              <h1
-                style={{
-                  textAlign: "center",
-                  paddingTop: "100px",
-                  color: "white",
-                  fontSize: "64px",
-                }}
-              >
-                Wisata Budaya
-              </h1>
+              <Link style={{ textDecoration: "none" }} to="/wisata">
+                <h1
+                  style={{
+                    textAlign: "center",
+                    paddingTop: "100px",
+                    color: "white",
+                    fontSize: "64px",
+                  }}
+                >
+                  Wisata Budaya
+                </h1>
+              </Link>
             </div>
           </div>
         </Container>
