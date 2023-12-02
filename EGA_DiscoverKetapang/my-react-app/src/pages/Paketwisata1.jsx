@@ -200,203 +200,189 @@ const Paketwisata1 = () => {
                 </h2> */}
                 <div className="more-pic">
                   <Link to="">
-                    <div
-                      style={{
-                        backgroundImage: `url(${more1})`,
-                        backgroundRepeat: "no-repeat",
-                        // height: "40vh",
-                        width: "300px",
-                        height: "300px",
-                        position: "relative",
-                      }}
-                    >
-                      <h3
-                        style={{
-                          color: "white",
-                          position: "absolute",
-                          marginLeft: "6rem",
-                        }}
-                      >
-                        Paket 1
-                      </h3>
-                      <p
-                        style={{
-                          marginLeft: "1rem",
-                          position: "absolute",
-                          paddingTop: "50px",
-                        }}
-                      >
-                        Mulai dari:
-                      </p>
-                      <h5
-                        style={{
-                          color: "white",
-                          marginLeft: "1rem",
-                          position: "absolute",
-                          paddingTop: "80px",
-                        }}
-                      >
-                        RP.250.000,00
-                      </h5>
-                      <ul
-                        style={{
-                          color: "white",
-                          position: "absolute",
-                          paddingTop: "110px",
-                        }}
-                      >
-                        <li>Bukit Batu Daya</li>
-                        <li>Air Terjun Batu Arang</li>
-                        <li>Pantai Tanjung Belandang</li>
-                        <li>Tugu Ale-Ale</li>
-                      </ul>
-                      <button
-                        className="btn btn-primary"
-                        style={{
-                          marginLeft: "4rem",
-                          marginTop: "13.5rem",
-                        }}
-                      >
-                        <Link
-                          to="/form"
-                          className="text-white text-decoration-none"
+                    <div>
+                      <img className="more-img-container" src={more1}></img>
+                      <div className="">
+                        <h3
+                          style={{
+                            color: "white",
+                            position: "absolute",
+                            marginLeft: "6rem",
+                          }}
                         >
-                          Pesan Sekarang
-                        </Link>
-                      </button>
+                          Paket 1
+                        </h3>
+                        <p
+                          style={{
+                            marginLeft: "1rem",
+                            position: "absolute",
+                            paddingTop: "50px",
+                          }}
+                        >
+                          Mulai dari:
+                        </p>
+                        <h5
+                          style={{
+                            color: "white",
+                            marginLeft: "1rem",
+                            position: "absolute",
+                            paddingTop: "80px",
+                          }}
+                        >
+                          RP.250.000,00
+                        </h5>
+                        <ul
+                          style={{
+                            color: "white",
+                            position: "absolute",
+                            paddingTop: "110px",
+                          }}
+                        >
+                          <li>Bukit Batu Daya</li>
+                          <li>Air Terjun Batu Arang</li>
+                          <li>Pantai Tanjung Belandang</li>
+                          <li>Tugu Ale-Ale</li>
+                        </ul>
+                        <button
+                          className="btn btn-primary"
+                          style={{
+                            marginLeft: "4rem",
+                            marginTop: "13.5rem",
+                            position: "relative",
+                          }}
+                        >
+                          <Link
+                            to="/form"
+                            className="text-white text-decoration-none"
+                          >
+                            Pesan Sekarang
+                          </Link>
+                        </button>
+                      </div>
                     </div>
                   </Link>
                   <Link to="">
-                    <div
-                      style={{
-                        backgroundImage: `url(${more3})`,
-                        backgroundRepeat: "no-repeat",
-                        // height: "40vh",
-                        width: "300px",
-                        height: "300px",
-                        position: "relative",
-                      }}
-                    >
-                      <h3
-                        style={{
-                          color: "white",
-                          position: "absolute",
-                          marginLeft: "6rem",
-                        }}
-                      >
-                        Paket 1
-                      </h3>
-                      <p
-                        style={{
-                          marginLeft: "1rem",
-                          position: "absolute",
-                          paddingTop: "50px",
-                        }}
-                      >
-                        Mulai dari:
-                      </p>
-                      <h5
-                        style={{
-                          color: "white",
-                          marginLeft: "1rem",
-                          position: "absolute",
-                          paddingTop: "80px",
-                        }}
-                      >
-                        RP.250.000,00
-                      </h5>
-                      <ul
-                        style={{
-                          color: "white",
-                          position: "absolute",
-                          paddingTop: "110px",
-                        }}
-                      >
-                        <li>Bukit Batu Daya</li>
-                        <li>Air Terjun Batu Arang</li>
-                        <li>Pantai Tanjung Belandang</li>
-                        <li>Tugu Ale-Ale</li>
-                      </ul>
-                      <button
-                        className="btn btn-primary"
-                        style={{
-                          marginLeft: "4rem",
-                          marginTop: "13.5rem",
-                        }}
-                      >
-                        <Link
-                          to="/form"
-                          className="text-white text-decoration-none"
+                    <div>
+                      <img className="more-img-container" src={more3}></img>
+                      <div>
+                        <h3
+                          style={{
+                            color: "white",
+                            position: "absolute",
+                            marginLeft: "6rem",
+                          }}
                         >
-                          Pesan Sekarang
-                        </Link>
-                      </button>
+                          Paket 1
+                        </h3>
+                        <p
+                          style={{
+                            marginLeft: "1rem",
+                            position: "absolute",
+                            paddingTop: "50px",
+                          }}
+                        >
+                          Mulai dari:
+                        </p>
+                        <h5
+                          style={{
+                            color: "white",
+                            marginLeft: "1rem",
+                            position: "absolute",
+                            paddingTop: "80px",
+                          }}
+                        >
+                          RP.250.000,00
+                        </h5>
+                        <ul
+                          style={{
+                            color: "white",
+                            position: "absolute",
+                            paddingTop: "110px",
+                          }}
+                        >
+                          <li>Bukit Batu Daya</li>
+                          <li>Air Terjun Batu Arang</li>
+                          <li>Pantai Tanjung Belandang</li>
+                          <li>Tugu Ale-Ale</li>
+                        </ul>
+                        <button
+                          className="btn btn-primary"
+                          style={{
+                            marginLeft: "4rem",
+                            marginTop: "13.5rem",
+                            position: "relative",
+                          }}
+                        >
+                          <Link
+                            to="/form"
+                            className="text-white text-decoration-none"
+                          >
+                            Pesan Sekarang
+                          </Link>
+                        </button>
+                      </div>
                     </div>
                   </Link>
                   <Link to="">
-                    <div
-                      style={{
-                        backgroundImage: `url(${more2})`,
-                        backgroundRepeat: "no-repeat",
-                        width: "300px",
-                        height: "300px",
-                        position: "relative",
-                      }}
-                    >
-                      <h3
-                        style={{
-                          color: "white",
-                          position: "absolute",
-                          marginLeft: "6rem",
-                        }}
-                      >
-                        Paket 1
-                      </h3>
-                      <p
-                        style={{
-                          marginLeft: "1rem",
-                          position: "absolute",
-                          paddingTop: "50px",
-                        }}
-                      >
-                        Mulai dari:
-                      </p>
-                      <h5
-                        style={{
-                          color: "white",
-                          marginLeft: "1rem",
-                          position: "absolute",
-                          paddingTop: "80px",
-                        }}
-                      >
-                        RP.250.000,00
-                      </h5>
-                      <ul
-                        style={{
-                          color: "white",
-                          position: "absolute",
-                          paddingTop: "110px",
-                        }}
-                      >
-                        <li>Bukit Batu Daya</li>
-                        <li>Air Terjun Batu Arang</li>
-                        <li>Pantai Tanjung Belandang</li>
-                        <li>Tugu Ale-Ale</li>
-                      </ul>
-                      <button
-                        className="btn btn-primary"
-                        style={{
-                          marginLeft: "4rem",
-                          marginTop: "13.5rem",
-                        }}
-                      >
-                        <Link
-                          to="/form"
-                          className="text-white text-decoration-none "
+                    <div>
+                      <img className="more-img-container" src={more2}></img>
+                      <div>
+                        <h3
+                          style={{
+                            color: "white",
+                            position: "absolute",
+                            marginLeft: "6rem",
+                          }}
                         >
-                          Pesan Sekarang
-                        </Link>
-                      </button>
+                          Paket 1
+                        </h3>
+                        <p
+                          style={{
+                            marginLeft: "1rem",
+                            position: "absolute",
+                            paddingTop: "50px",
+                          }}
+                        >
+                          Mulai dari:
+                        </p>
+                        <h5
+                          style={{
+                            color: "white",
+                            marginLeft: "1rem",
+                            position: "absolute",
+                            paddingTop: "80px",
+                          }}
+                        >
+                          RP.250.000,00
+                        </h5>
+                        <ul
+                          style={{
+                            color: "white",
+                            position: "absolute",
+                            paddingTop: "110px",
+                          }}
+                        >
+                          <li>Bukit Batu Daya</li>
+                          <li>Air Terjun Batu Arang</li>
+                          <li>Pantai Tanjung Belandang</li>
+                          <li>Tugu Ale-Ale</li>
+                        </ul>
+                        <button
+                          className="btn btn-primary"
+                          style={{
+                            marginLeft: "4rem",
+                            marginTop: "13.5rem",
+                            position: "relative",
+                          }}
+                        >
+                          <Link
+                            to="/form"
+                            className="text-white text-decoration-none "
+                          >
+                            Pesan Sekarang
+                          </Link>
+                        </button>
+                      </div>
                     </div>
                   </Link>
                 </div>

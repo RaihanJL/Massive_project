@@ -150,7 +150,7 @@ const Datapemandu = () => {
             </div>
           </div>
         </div>
-        <div className="container d-flex justify-content-center align-items-center w-100  mt-5">
+        <div className="container justify-content-center align-items-center w-100  mt-5">
           <hr className="mx-5" />
           <div
             className={`animate-in-3 ${
@@ -159,7 +159,7 @@ const Datapemandu = () => {
             onClick={resetScroll}
           >
             <div className="col-8">
-              <div className=" ">
+              <div className="float-end">
                 <h4 className="fw-bold">Oktavia Putri</h4>
                 <h6>Salah satu pemandu wisata terbaik</h6>
                 <hr className="w-50" />
@@ -178,8 +178,8 @@ const Datapemandu = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-4 px-5">
-              <div className="img-pemandu  ">
+            <div className="col-4">
+              <div style={{ paddingLeft: "150px" }} className="img-pemandu  ">
                 <img className="rounded-2" src={P3} alt="mila" />
               </div>
             </div>

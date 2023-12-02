@@ -64,7 +64,7 @@ const Homepages = () => {
                   style={{ fontSize: "55px" }}
                   className="text-light fw-bold text-center"
                 >
-                  Selamat datang di <br></br> Ketapang
+                  SELAMAT DATANG DI <br></br> KETAPANG
                 </h1>
               </div>
             </Container>
@@ -111,7 +111,7 @@ const Homepages = () => {
           >
             <div
               style={{ paddingTop: "50px", lineHeight: "4px" }}
-              className=" toppemandu min-vh-100 text-center "
+              className="min-vh-100 text-center "
             >
               <h1
                 style={{ fontSize: "48px" }}
@@ -125,18 +125,19 @@ const Homepages = () => {
               >
                 <Cardtop3></Cardtop3>
               </div>
-
-              <h4
-                style={{ marginRight: "270px", marginTop: "4rem" }}
-                className="more-button text-light text-end "
+              <div
+                style={{ marginRight: "250px" }}
+                className="mt-5 text-end d-flex justify-content-end"
               >
-                <Link
-                  style={{ textDecoration: "none", color: "white" }}
-                  to="/paketwisata1"
-                >
-                  Selengkapnya >
-                </Link>
-              </h4>
+                <h4 className="more-button">
+                  <Link
+                    style={{ textDecoration: "none", color: "white" }}
+                    to="/paketwisata1"
+                  >
+                    Selengkapnya &gt;
+                  </Link>
+                </h4>
+              </div>
             </div>
           </div>
 

@@ -27,7 +27,7 @@ const Cardtop3 = () => {
               Paket<br></br> Eksplorasi Alam
             </h4>
             <Link to="/paketwisata1">
-              <button className="p-3 rounded ">Lihat Detail ></button>
+              <button className="p-3 rounded ">Lihat Detail &gt;</button>
             </Link>
           </div>
         </div>
@@ -48,7 +48,7 @@ const Cardtop3 = () => {
           >
             <h4 className="text-light text-start">Paket Perjalanan Waktu</h4>
             <Link to="/paketwisata2">
-              <button className="p-3 rounded ">Lihat Detail ></button>
+              <button className="p-3 rounded ">Lihat Detail &gt;</button>
             </Link>
           </div>
         </div>
@@ -72,7 +72,7 @@ const Cardtop3 = () => {
               Paket Petualangan dan Kuliner
             </h4>
             <Link to="/paketwisata3">
-              <button className="p-3 rounded ">Lihat Detail ></button>
+              <button className="p-3 rounded ">Lihat Detail &gt;</button>
             </Link>
           </div>
         </div>

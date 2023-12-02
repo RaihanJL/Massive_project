@@ -1309,6 +1309,7 @@ div > .img-kuliner p {
   align-items: center;
   margin-bottom: 50px;
   margin-top: 30px;
+  margin-right: 4.5rem;
 }
 
 .more-pic p {
@@ -1411,4 +1412,10 @@ div > .img-kuliner p {
 }
 .Formpembayaran select {
   width: 600px;
+}
+
+/* more */
+.more-img-container {
+  position: absolute;
+  filter: brightness(50%);
 }

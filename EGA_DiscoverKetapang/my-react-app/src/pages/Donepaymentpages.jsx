@@ -29,7 +29,6 @@ const Donepayment = () => {
     bookingName: "Chesa",
     bookingEmail: "chesaolivia99@gmail.com",
     bookingNoTelepon: "085932441121",
-    bookingDate: "15 November 2023",
     bookingPemandu: "Nurhayati",
   };
 
@@ -40,7 +39,6 @@ const Donepayment = () => {
         style={{
           background:
             "linear-gradient(0deg, rgba(11, 76, 113, 0.72) 22.58%, rgba(41,89,67) 67.9%)",
-
           paddingTop: "100px",
         }}
       >
@@ -86,7 +84,7 @@ const Donepayment = () => {
               </p>
               <p>
                 Booking Date <span style={{ marginLeft: "50px" }}>:</span>{" "}
-                {data.bookingDate}
+                {date} {month} {year}
               </p>
               <p>
                 Pemandu <span style={{ marginLeft: "78px" }}>:</span>{" "}

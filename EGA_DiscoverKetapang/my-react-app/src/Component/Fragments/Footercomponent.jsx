@@ -23,8 +23,9 @@ const Footercomponent = () => {
               <div>
                 <h5>Tentang Kami</h5>
                 <p>
-                  Kami ingin para wisatawan yang ingin berkunjung di Ketapang mendapatkan pengalaman berwisata yang menyenangkan dan
-                  tidak terlupakan
+                  Kami ingin para wisatawan yang ingin berkunjung di Ketapang
+                  mendapatkan pengalaman berwisata yang menyenangkan dan tidak
+                  terlupakan
                 </p>
               </div>
               <div>
@@ -37,7 +38,7 @@ const Footercomponent = () => {
                     <p>0210-1234567</p>
                   </div>
                   <div className="d-flex gap-2">
-                    <a href="">
+                    <a href="mailto:tourega880@gmail.com?">
                       <img src={Gmbremail} alt="" />
                     </a>
                     <p>tourega880@gmail.com</p>
