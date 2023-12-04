@@ -179,7 +179,7 @@ const Datapemandu = () => {
               </div>
             </div>
             <div className="col-4 px-5">
-              <div className="img-pemandu  ">
+              <div style={{ paddingLeft: "100px" }} className="img-pemandu  ">
                 <img className="rounded-2" src={P3} alt="mila" />
               </div>
             </div>

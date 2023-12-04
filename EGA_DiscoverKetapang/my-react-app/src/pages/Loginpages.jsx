@@ -1,8 +1,30 @@
 import Button from "../Component/Elements/Buttons/Button";
 import Bgimage from "../assets/img/welcomeimg.png";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
 const Loginpages = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [msg, setMsg] = useState("");
+  const navigation = useNavigate();
+
+  const Auth = async (e) => {
+    e.preventDefault();
+    try {
+      await axios.post("http://localhost:5000/login", {
+        email: email,
+        password: password,
+      });
+      navigation("/home");
+    } catch (error) {
+      if (error.response) {
+        setMsg(error.response.data.msg);
+      }
+    }
+  };
   return (
     <>
       <div className="login">
@@ -29,7 +51,8 @@ const Loginpages = () => {
                   Ketapang
                 </p>
               </div>
-              <form className="login-form">
+              <form onSubmit={Auth} className="login-form">
+                <p className="has text-centered">{msg}</p>
                 <div className="form-group">
                   <label htmlFor="email">Email</label>
                   <input
@@ -38,6 +61,8 @@ const Loginpages = () => {
                     name="email"
                     placeholder="Masukkan email"
                     required
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                   />
                 </div>
                 <div className="form-group">
@@ -48,6 +73,8 @@ const Loginpages = () => {
                     name="password"
                     placeholder="Masukkan kata sandi"
                     required
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
                   />
                 </div>
                 <h6 className="text-white text-start w-100">
@@ -56,10 +83,9 @@ const Loginpages = () => {
                     Daftar di sini
                   </Link>
                 </h6>
+
+                <Button type="submit">Login</Button>
               </form>
-              <Link to="/home">
-                <Button>Masuk</Button>
-              </Link>
             </div>
           </div>
         </div>

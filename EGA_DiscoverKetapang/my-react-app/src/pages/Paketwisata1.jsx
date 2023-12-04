@@ -244,8 +244,8 @@ const Paketwisata1 = () => {
                           <li>Tugu Ale-Ale</li>
                         </ul>
                         <button
-                          className="btn btn-primary"
                           style={{
+                            borderRadius: "5px",
                             marginLeft: "4rem",
                             marginTop: "13.5rem",
                             position: "relative",
@@ -306,8 +306,8 @@ const Paketwisata1 = () => {
                           <li>Tugu Ale-Ale</li>
                         </ul>
                         <button
-                          className="btn btn-primary"
                           style={{
+                            borderRadius: "5px",
                             marginLeft: "4rem",
                             marginTop: "13.5rem",
                             position: "relative",
@@ -368,8 +368,8 @@ const Paketwisata1 = () => {
                           <li>Tugu Ale-Ale</li>
                         </ul>
                         <button
-                          className="btn btn-primary"
                           style={{
+                            borderRadius: "5px",
                             marginLeft: "4rem",
                             marginTop: "13.5rem",
                             position: "relative",
@@ -377,7 +377,7 @@ const Paketwisata1 = () => {
                         >
                           <Link
                             to="/form"
-                            className="text-white text-decoration-none "
+                            className="text-white text-decoration-none"
                           >
                             Pesan Sekarang
                           </Link>

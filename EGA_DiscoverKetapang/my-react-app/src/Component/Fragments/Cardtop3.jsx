@@ -47,7 +47,7 @@ const Cardtop3 = () => {
             }}
           >
             <h4 className="text-light text-start">Paket Perjalanan Waktu</h4>
-            <Link to="/paketwisata2">
+            <Link to="/paketwisata1">
               <button className="p-3 rounded ">Lihat Detail &gt;</button>
             </Link>
           </div>
@@ -71,7 +71,7 @@ const Cardtop3 = () => {
             <h4 className="text-light text-start">
               Paket Petualangan dan Kuliner
             </h4>
-            <Link to="/paketwisata3">
+            <Link to="/paketwisata1">
               <button className="p-3 rounded ">Lihat Detail &gt;</button>
             </Link>
           </div>

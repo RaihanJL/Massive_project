@@ -186,6 +186,10 @@ input[type="password"] {
   background: #ccc;
 }
 
+input[type="submit"]:hover {
+  background-color: #184675;
+}
+
 button {
   background-color: #2c8bc4;
   color: #fff;
@@ -1418,4 +1422,27 @@ div > .img-kuliner p {
 .more-img-container {
   position: absolute;
   filter: brightness(50%);
+}
+
+/* popup */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  background-color: #2c8bc4;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+/* submit-button */
+.submit-button {
+  background-color: #2c8bc4;
+  color: #fff;
+  padding: 6px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }

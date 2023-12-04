@@ -1,0 +1,60 @@
+GET http://localhost:5000/daftarPemandu
+
+###
+POST http://localhost:5000/daftarPemandu
+Content-Type: application/json
+
+{
+    "nama_lengkap" : "Raihan",
+    "jenis_kelamin" : "laki-laki",
+    "email" : "raihanlaban123@gmail.com",
+    "No_Handphone" : "081298941701",
+    "CV" : "CV_KEVIN_LABAN_2023.pdf"
+}
+
+###
+GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJmYXJpcyIsImVtYWlsIjoic2F5YUBnbWFpbC5jb20iLCJpYXQiOjE3MDE3MDIzNTEsImV4cCI6MTcwMTcwMjM4MX0.SltgFqFcCiA7gInNrt7SodzbVvtaIMkoCTtCgwRilio
+
+###
+
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "hawa",
+    "email": "saya@gmail.com",
+    "password": "12345678"
+}
+
+
+###
+
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "saya@gmail.com",
+    "password": "12345678"
+}
+
+
+###
+
+
+GET http://localhost:5000/token
+
+###
+DELETE http://localhost:5000/logout
+
+###
+GET http://localhost:5000/ulasan
+
+###
+POST http://localhost:5000/ulasan
+Content-Type: application/json
+
+{
+    "ulasan": "Additionally, ensure that your model (UlasanModel.js) and database connection are correctly set up and that the request body for the Komen route contains the required data (e.g., ulasan). If the issue persists, you might want to check the detailed error message in your server logs to get more information on what went wrong."
+
+}
